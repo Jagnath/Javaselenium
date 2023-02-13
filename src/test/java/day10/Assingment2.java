@@ -15,6 +15,6 @@ public class Assingment2 {
         BufferedWriter wr= new BufferedWriter(write);
         wr.write("Jagnath");
         wr.flush();
-
+       System.out.println("Yes data entered");
     }
 }
