@@ -6,8 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.*;
 
-public class Base_Run_Class {
-    WebDriver driver;
+ public class Base_Run_Class {
+    protected WebDriver driver;
     String browser = "chrome";
     @BeforeClass
     public void setup(){
